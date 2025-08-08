@@ -32,7 +32,7 @@ const Projects = () => {
       githubUrl: "https://github.com/ArindamDutta2004",
       featured: true
     },
-        {
+    {
       id: 2,
       title: "Kissan Helper",
       description: "Kissan Helper is a digital platform that provides farmers with expert agricultural advice, weather updates and helps farmers identify plant diseases and provides effective treatment solutions.",
@@ -43,7 +43,7 @@ const Projects = () => {
       githubUrl: "https://github.com/ArindamDutta2004",
       featured: true
     },
-        {
+    {
       id: 3,
       title: "Weather App",
       description: "A weather application that provides current conditions and forecasts for locations worldwide. Features include interactive maps and severe weather alerts.",
@@ -182,9 +182,9 @@ const Projects = () => {
 
             {/* Right Side - Logo */}
             <motion.img
-              src="./src/assets/logo1-removebg-preview.png" // Replace with the actual image path
+              src="https://i.ibb.co/ymN7bsJ4/logo1-removebg-preview.png"
               alt="Logo"
-              className="w-32 h-32 object-contain ml-auto" // Ensure it aligns to the right
+              className="w-32 h-32 object-contain ml-auto" // aligns right
               initial={{ opacity: 0, x: 50 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.3, duration: 0.5 }}
@@ -209,8 +209,8 @@ const Projects = () => {
                   key={index}
                   onClick={() => setCategoryFilter(category)}
                   className={`px-4 py-2 rounded-full ${categoryFilter === category
-                      ? "bg-indigo-600 text-white"
-                      : "bg-gray-200 text-gray-700 hover:bg-gray-300"
+                    ? "bg-indigo-600 text-white"
+                    : "bg-gray-200 text-gray-700 hover:bg-gray-300"
                     } transition-colors`}
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
