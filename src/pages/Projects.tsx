@@ -182,7 +182,7 @@ const Projects = () => {
 
             {/* Right Side - Logo */}
             <motion.img
-              src="https://i.ibb.co/ymN7bsJ4/logo1-removebg-preview.png"
+              src=" "
               alt="Logo"
               className="w-32 h-32 object-contain ml-auto" // aligns right
               initial={{ opacity: 0, x: 50 }}
