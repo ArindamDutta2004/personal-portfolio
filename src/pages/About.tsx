@@ -93,7 +93,7 @@ const About = () => {
 
             {/* Right Side - Logo */}
             <motion.img
-              src="https://i.ibb.co/ymN7bsJ4/logo1-removebg-preview.png"
+              src="https://i.postimg.cc/WzYQwZZ7/logo1-removebg-preview.png"
               alt="Logo"
               className="w-32 h-32 object-contain ml-auto" // aligns right
               initial={{ opacity: 0, x: 50 }}
